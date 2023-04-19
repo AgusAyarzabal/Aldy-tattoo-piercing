@@ -1,0 +1,25 @@
+.header{
+    h1{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: "$titulo";
+        margin-bottom: 20px;
+        font-size: x-large;
+        text-decoration: none;
+    }
+    h2 {
+        padding: 10px;
+        font-family: "$titulo";
+        color: $gris;
+        background-color: $negro;
+        margin-top: 0%;
+        text-align: center;
+    }
+
+
+    a {
+        text-decoration: none;
+        color: $negro;
+    }
+}
