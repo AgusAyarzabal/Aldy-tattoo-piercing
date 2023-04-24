@@ -1,0 +1,24 @@
+.main-trabajos {
+
+
+    .grid-container {
+
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr;
+
+
+        article {
+            padding: 10px;
+            color: $rosita;
+            text-align: center;
+
+            img {
+                width: 200px;
+                padding: 10px;
+            }
+
+        }
+
+    }
+
+}

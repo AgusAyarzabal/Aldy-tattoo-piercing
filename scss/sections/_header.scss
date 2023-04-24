@@ -1,25 +1,94 @@
-.header{
-    h1{
+.header {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
+    background-blend-mode: multiply, multiply;
+    display: inline-block;
+    height: 120px;
+
+
+
+    .header-flex {
+
         display: flex;
-        justify-content: center;
-        text-align: center;
-        font-family: "$titulo";
-        margin-bottom: 20px;
-        font-size: x-large;
-        text-decoration: none;
-    }
-    h2 {
-        padding: 10px;
-        font-family: "$titulo";
-        color: $gris;
-        background-color: $negro;
-        margin-top: 0%;
-        text-align: center;
-    }
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+            width: 45px;
+            margin-left: 15px;
+            margin-top: 5px;
+        }
+
+        .header-flex h1 {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            font-family: "$titulo";
+            margin-bottom: 20px;
+            font-size: x-large;
+            text-decoration: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: $negro;
+        }
+
+        /* barra nav */
+        nav ul li {
+            font-family: '$texto', serif;
+            display: inline;
+            font-weight: 500;
+        }
+
+        .ul-flex {
+            display: flex;
+            width: 520px;
+            justify-content: flex-end;
+            margin-left: 460px;
+
+            .link {
+                padding: 5px;
+
+                &:hover {
+                    background-color: #a8c1d8;
+                    color: $negro;
+                    transition: .1s;
+                    transform: scale(1.5);
+                    border: solid 2px $negro;
+                }
+
+            }
+        }
 
 
-    a {
-        text-decoration: none;
-        color: $negro;
     }
+}
+
+/* responsive header*/
+
+/* MEDIA QUERYS -MOBILE LAST= Max Width */
+
+@media (max-width: 360px) {
+    .mobile-last {
+
+        .logo {
+            width: 30px;
+            margin: 10px;
+        }
+    }
+
+}
+
+@media (min-width: 361px) {
+
+    .mobile-last_t {
+
+        .logo {
+            width: 30px;
+            margin: 10px;
+        }
+
+    }
+
 }

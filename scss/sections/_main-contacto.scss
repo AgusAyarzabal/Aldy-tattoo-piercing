@@ -1,0 +1,111 @@
+/* estilos contacto */
+.main-contacto {
+
+
+    .form-contacto {
+        width: 300px;
+        padding: 10px;
+        margin: auto;
+        border: radius 4px;
+        color: aliceblue;
+        text-align: center;
+
+        .h4-contact {
+            color: $rosita;
+            font-size: 25px;
+        }
+
+        .parrafo-contact {
+            margin-bottom: 0;
+            color: $rosita;
+            margin: 3px;
+        }
+
+        .controls {
+            width: 100%;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            border: 1px solid color rgba(0, 0, 0, 0.15);
+            font-size: 20px;
+        }
+
+        .input {
+            background-color: aliceblue;
+            padding: 15px;
+            height: 10px;
+            margin: 10px;
+
+            &:focus {
+                transform: scale(1.05);
+            }
+
+        }
+
+
+
+    }
+
+
+
+    .turno {
+        display: flex;
+        align-items: center;
+        padding-top: 10px;
+        padding-left: 200px;
+
+    }
+
+    .button {
+        margin: 20px;
+    }
+
+}
+
+
+/* responsive contacto*/
+
+/* MEDIA QUERYS -MOBILE LAST= Max Width */
+
+
+@media (max-width: 360px) {
+
+
+    .mobile-last {
+
+        .turno {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-top: 10px;
+            padding: 0px;
+        }
+    }
+
+}
+
+@media (min-width: 361px) {
+
+    .mobile_last_t {
+
+        .turno {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-top: 10px;
+            padding: 0px;
+        }
+    }
+
+}
+
+
+@media(max-width: 425px) {
+
+
+    .mobile-last {
+        .turno {
+            flex-wrap: nowrap;
+        }
+    }
+}

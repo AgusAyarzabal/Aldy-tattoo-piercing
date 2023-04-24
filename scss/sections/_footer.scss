@@ -1,0 +1,77 @@
+/* estilo footer */
+
+.footer {
+
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
+    background-blend-mode: multiply, multiply;
+
+
+    h4 {
+        display: inline-block;
+        padding: 5px;
+        font-weight: 185;
+    }
+
+    /* redes sociales */
+    .redes {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+
+        .Facebook {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .Instagram {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .gg-instagram {
+                margin: 5px;
+            }
+
+        }
+
+    }
+}
+
+/* responsive footer*/
+
+/* MEDIA QUERYS -MOBILE LAST= Max Width */
+
+@media (max-width: 360px) {
+    .mobile-last {
+
+
+        footer {
+            text-align: center;
+
+            .redes {
+                display: flex;
+                flex-direction: column;
+            }
+
+        }
+    }
+
+}
+
+@media (min-width: 361px) {
+
+    .mobile_last_t {
+        footer {
+            text-align: center;
+        }
+
+    }
+
+    .mobile-last .mobile_last_t .redes {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

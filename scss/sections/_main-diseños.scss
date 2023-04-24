@@ -1,0 +1,37 @@
+.main-diseños {
+
+
+    /* imagenes diseños */
+    .flex-div {
+        display: flex;
+        /* direccion horizontal/vertical */
+        flex-direction: row;
+        /* wrap(cuando no entra mas, se va abajo)*/
+        flex-wrap: wrap;
+        /* orden del contenedor(espacios) */
+        justify-content: space-evenly;
+    }
+
+    .flex-div img {
+        width: 200px;
+        padding: 10px;
+    }
+}
+ 
+
+/* responsive diseños*/
+
+/* MEDIA QUERYS -MOBILE LAST= Max Width */
+
+@media(max-width: 439px) {
+
+    .flex-div {
+        display: flex;
+
+        .flex-div img {
+            width: 150px;
+
+        }
+    }
+
+}
