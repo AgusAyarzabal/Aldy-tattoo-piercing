@@ -1,16 +1,15 @@
 // /* tipografias */
-@import"../utilities/typo";
+@import"./utilities/typo";
 //colores//
-@import"../utilities/coolors";
+@import"./utilities/coolors";
 //reseteo//
-@import"../utilities/reset";
+@import"./utilities/reset";
 //secciones (sections)//
 @import"./sections/header";
-@import"./sections/main";
-@import"./sections/footer";
 @import"./sections/style-general";
+@import"./sections/footer";
 @import"./sections/main-index";
 @import"./sections/main-blog";
-@import"./sections/main.trabajos";
+@import"./sections/main-trabajos";
 @import"./sections/main-diseños";
 @import"./sections/main-contacto";

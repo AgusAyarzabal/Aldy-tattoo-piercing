@@ -17,7 +17,7 @@
         padding: 10px;
     }
 }
- 
+
 
 /* responsive diseños*/
 
@@ -25,13 +25,15 @@
 
 @media(max-width: 439px) {
 
-    .flex-div {
-        display: flex;
 
-        .flex-div img {
-            width: 150px;
+            .flex-div {
+                display: flex;
 
+                img {
+                    width: 150px;
+
+                }
+            }
         }
-    }
+    
 
-}
