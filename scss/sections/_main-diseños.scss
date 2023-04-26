@@ -25,15 +25,16 @@
 
 @media(max-width: 439px) {
 
+    .main-diseños {
 
-            .flex-div {
-                display: flex;
 
-                img {
-                    width: 150px;
+        .flex-div {
+            display: flex;
 
-                }
+            img {
+                width: 150px;
+
             }
         }
-    
-
+    }
+}

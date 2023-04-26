@@ -1,16 +1,4 @@
-.main_index {
 
-
-    .img-index {
-        padding: 10px;
-        width: 985px;
-    }
-
-
-    .regresar {
-        color: $violeta;
-    }
-}
 
 
 /* responsive */
@@ -19,20 +7,33 @@
 
 @media (max-width: 360px) {
 
-    .mobile-last img {
-        width: 300px;
+    .main_index {
+
+        .main {
+            background-color: $negro;
+            padding: 5px;
+        }
+
 
     }
 }
 
-@media (min-width: 361px) {
-    .mobile_last_t {
 
-        .img-index {
-            min-width: 320px;
-            max-width: 1000px;
-            margin: auto;
-            width: 90vw;
+@media (min-width: 361px) {
+
+    .main_index {
+        .mobile-last_t {
+            .regresar {
+                color: $celeste;
+                text-decoration: none;
+            }
+
+            .img-index {
+                width: 70vw;
+                margin: 1rem;
+                border-radius: 10px;
+            }
         }
     }
+
 }

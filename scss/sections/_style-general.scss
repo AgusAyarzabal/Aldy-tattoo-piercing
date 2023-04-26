@@ -1,6 +1,7 @@
 .main {
     background-color: $negro;
-
+    border-radius: 10px;
+    
     h2 {
         padding: 10px;
         font-family: "$titulo";
@@ -25,7 +26,11 @@
         border: solid 2px $negro;
     }
 
-
+    a {
+        padding-left: 5px;
+        text-decoration: none;
+        color: $celeste;
+    }
 }
 
 /* responsive general*/
@@ -51,15 +56,7 @@
             text-align: center;
         }
 
-        h1 {
-            display: flex;
-            justify-content: center;
-            margin: 0;
-            text-align: center;
-            font-size: medium;
-            margin-bottom: 10px;
-            padding-left: 20px;
-        }
+
 
 
 
@@ -78,24 +75,17 @@
         max-width: auto;
         margin: auto;
         font-size: medium;
+        text-align: center;
 
         p {
-            max-width: 650px;
+            max-width: 750px;
             margin: auto;
             font-size: medium;
             text-align: center;
 
         }
 
-        h1 {
-            display: flex;
-            justify-content: center;
-            margin: 0;
-            text-align: center;
-            font-size: large;
-            margin-bottom: 10px;
-            padding-left: 20px;
-        }
+
 
         .main {
             background-color: $negro;

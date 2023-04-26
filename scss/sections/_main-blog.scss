@@ -1,9 +1,9 @@
 .main-blog {
 
-
     .img-blog {
-        height: 700px;
-        width: 985px;
+        width: 70vw;
+        margin: 1rem;
+        border-radius: 10px;
     }
 
     h3 {
@@ -25,16 +25,14 @@
 
 
 
+
 /* responsive blog*/
 
 /* MEDIA QUERYS -MOBILE LAST= Max Width */
 
 @media (max-width: 360px) {
     .mobile-last {
-        .mobile-last .img-blog {
-            width: 300px;
-            height: 350px;
-        }
+
 
         .mobile-last ul {
             justify-content: center;
@@ -53,27 +51,22 @@
 
 @media (min-width: 361px) {
 
-    .mobile-last_t {
+    .main-blog {
 
-        .img-blog {
-            min-width: 320px;
-            max-width: 1000px;
-            margin: auto;
-            width: 90vw;
+        .mobile-last_t {
+            
 
-        }
+            ul {
+                justify-content: center;
+                width: 300px;
+                margin: 0%;
 
-        ul {
-            justify-content: center;
-            width: 300px;
-            margin: 0%;
-
-            li {
-                padding: 5;
-                font-size: medium;
+                li {
+                    padding: 5;
+                    font-size: medium;
+                }
             }
         }
-
 
     }
 }

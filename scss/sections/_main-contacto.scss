@@ -11,15 +11,12 @@
         text-align: center;
 
         .h4-contact {
-            color: $rosita;
-            font-size: 25px;
+            display: inline-block !important;
+            padding: 5px !important;
+            font-weight: 185 !important;
         }
 
-        .parrafo-contact {
-            margin-bottom: 0;
-            color: $rosita;
-            margin: 3px;
-        }
+
 
         .controls {
             width: 100%;
@@ -52,7 +49,14 @@
         display: flex;
         align-items: center;
         padding-top: 10px;
-        padding-left: 200px;
+        justify-content: center;
+        
+
+        .parrafo-contact {
+            color: $rosita;
+            margin: 10px;
+            width: auto;
+        }
 
     }
 
@@ -78,7 +82,8 @@
             flex-direction: row;
             align-items: center;
             padding-top: 10px;
-            padding: 0px;
+            justify-content: center;
+            
         }
     }
 
@@ -86,7 +91,9 @@
 
 @media (min-width: 361px) {
 
-    .mobile_last_t {
+    .mobile-last_t {
+
+
 
         .turno {
             display: flex;
@@ -94,10 +101,19 @@
             align-items: center;
             padding-top: 10px;
             padding: 0px;
+            justify-content: center;
+
+        }
+
+        .parrafo-contact {
+            color: $rosita;
+            margin: 10px;
+            width: auto;
         }
     }
-
 }
+
+
 
 
 @media(max-width: 425px) {
