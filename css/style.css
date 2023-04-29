@@ -2,7 +2,7 @@
 /* tipografias */
 /* FUENTE EXTERNA */
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Sedgwick+Ave+Display&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap");
 /* reseteo */
 * {
   margin: 0;
@@ -11,7 +11,6 @@
 .header {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4) 120%) #989898;
   background-blend-mode: multiply, multiply;
-  border-radius: 10px;
   height: 120px; }
   .header .header-flex {
     display: flex;
@@ -19,6 +18,8 @@
     justify-content: space-between;
     align-items: center;
     /* barra nav */ }
+    .header .header-flex h1 {
+      font-family: "'Merriweather', serif;"; }
     .header .header-flex .logo {
       width: 40px;
       margin: .5rem; }
@@ -84,7 +85,6 @@
 
 .main {
   background-color: #0E0F19;
-  border-radius: 10px;
   /* hover */ }
   .main h2 {
     padding: 10px;
@@ -148,7 +148,7 @@
   text-align: center;
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4) 120%) #989898;
   background-blend-mode: multiply, multiply;
-  border-radius: 10px;
+  border-radius: 8px;
   /* redes sociales */ }
   .footer .ul-footer {
     display: inline-flex;
@@ -259,6 +259,25 @@
       width: 200px;
       padding: 10px; }
 
+.main-trabajos .trabajos-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+  .main-trabajos .trabajos-div img {
+    width: 175px;
+    margin: 5px; }
+
+/* responsive trabajos*/
+/* MEDIA QUERYS -MOBILE LAST= Max Width */
+@media (min-width: 719px) {
+  .main-trabajos .trabajos-div {
+    display: none !important; } }
+
+@media (max-width: 720px) {
+  .grid-container {
+    display: none !important; } }
+
 .main-diseños {
   /* imagenes diseños */ }
   .main-diseños .flex-div {
@@ -269,9 +288,9 @@
     flex-wrap: wrap;
     /* orden del contenedor(espacios) */
     justify-content: space-evenly; }
-  .main-diseños .flex-div img {
-    width: 200px;
-    padding: 10px; }
+    .main-diseños .flex-div img {
+      width: 200px;
+      padding: 10px; }
 
 /* responsive diseños*/
 /* MEDIA QUERYS -MOBILE LAST= Max Width */

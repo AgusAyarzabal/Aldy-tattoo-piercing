@@ -21,4 +21,40 @@
 
     }
 
+    .trabajos-div {
+        display: flex;
+        
+        flex-direction: row;
+       
+        flex-wrap: wrap;
+       
+        justify-content: space-evenly;
+
+        img {
+            width: 175px;
+            margin: 5px;
+        }
+    }
+
+}
+
+/* responsive trabajos*/
+
+/* MEDIA QUERYS -MOBILE LAST= Max Width */
+
+
+@media(min-width: 719px) {
+    .main-trabajos {
+
+        .trabajos-div {
+            display: none !important;
+
+        }
+    }
+}
+
+@media(max-width: 720px) {
+    .grid-container {
+        display: none !important;
+    }
 }

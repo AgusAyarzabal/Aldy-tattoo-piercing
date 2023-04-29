@@ -2,7 +2,7 @@
 /* tipografias */
 /* FUENTE EXTERNA */
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Sedgwick+Ave+Display&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 /* reseteo */
 * {
   margin: 0;
@@ -22,9 +22,8 @@
   /* barra nav */
 }
 .header .header-flex .logo {
-  width: 45px;
-  margin-left: 15px;
-  margin-top: 5px;
+  width: 40px;
+  margin: 0.5rem;
 }
 .header .header-flex a {
   text-decoration: none;
@@ -65,7 +64,7 @@
   }
   .mobile-last .logo {
     width: 30px;
-    margin: 10px;
+    margin: 0.5rem;
   }
 }
 @media (min-width: 361px) {
@@ -85,12 +84,17 @@
   }
   .mobile_last_t .logo {
     width: 30px;
-    margin: 10px;
+    margin: 0.5rem;
   }
 }
 @media (max-width: 375px) {
   .mobile_last_t h1 {
     margin-bottom: 0%;
+  }
+}
+@media (min-width: 768px) {
+  .mobile_last_t h1 {
+    font-size: x-large;
   }
 }
 .main {
@@ -116,6 +120,11 @@
   transition: 0.1s;
   transform: scale(1.5);
   border: solid 2px #0E0F19;
+}
+.main a {
+  padding-left: 5px;
+  text-decoration: none;
+  color: rgb(31, 133, 180);
 }
 
 /* responsive general*/
@@ -148,9 +157,10 @@
     max-width: auto;
     margin: auto;
     font-size: medium;
+    text-align: center;
   }
   .mobile_last_t p {
-    max-width: 650px;
+    max-width: 750px;
     margin: auto;
     font-size: medium;
     text-align: center;
@@ -164,7 +174,16 @@
   text-align: center;
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4) 120%) #989898;
   background-blend-mode: multiply, multiply;
+  border-radius: 8px;
   /* redes sociales */
+}
+.footer .ul-footer {
+  display: inline-flex;
+  list-style: none;
+  margin: 0.3rem;
+}
+.footer .ul-footer .link {
+  padding: 5px;
 }
 .footer a {
   text-decoration: none;
@@ -179,6 +198,7 @@
   display: flex;
   flex-direction: column;
   align-content: center;
+  margin: 0.2rem;
 }
 .footer .redes .Facebook {
   display: flex;
@@ -214,31 +234,23 @@
     flex-direction: column;
   }
 }
-.main_index .img-index {
-  padding: 10px;
-  width: 985px;
-}
-.main_index .regresar {
-  color: blueviolet;
-}
-
 /* responsive */
 /* MEDIA QUERYS -MOBILE LAST= Max Width */
 @media (max-width: 360px) {
-  .main_index .mobile-last img {
-    width: 300px;
-  }
-  .main {
+  .main_index .main {
     background-color: #0E0F19;
     padding: 5px;
   }
 }
 @media (min-width: 361px) {
+  .main_index .mobile-last_t .regresar {
+    color: rgb(31, 133, 180);
+    text-decoration: none;
+  }
   .main_index .mobile-last_t .img-index {
-    min-width: 320px;
-    max-width: 1000px;
-    margin: auto;
-    width: 90vw;
+    width: 70vw;
+    margin: 1rem;
+    border-radius: 10px;
   }
 }
 .main-blog .img-blog {
@@ -273,9 +285,6 @@
   }
 }
 @media (min-width: 361px) {
-  .main-blog .mobile-last_t {
-    text-align: center;
-  }
   .main-blog .mobile-last_t ul {
     justify-content: center;
     width: 300px;
@@ -337,8 +346,9 @@
   text-align: center;
 }
 .main-contacto .form-contacto .h4-contact {
-  color: #F8C7CC;
-  font-size: 25px;
+  display: inline-block !important;
+  padding: 5px !important;
+  font-weight: 185 !important;
 }
 .main-contacto .form-contacto .controls {
   width: 100%;

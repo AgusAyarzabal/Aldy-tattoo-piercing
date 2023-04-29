@@ -10,12 +10,13 @@
         flex-wrap: wrap;
         /* orden del contenedor(espacios) */
         justify-content: space-evenly;
+
+        img {
+            width: 200px;
+            padding: 10px;
+        }
     }
 
-    .flex-div img {
-        width: 200px;
-        padding: 10px;
-    }
 }
 
 

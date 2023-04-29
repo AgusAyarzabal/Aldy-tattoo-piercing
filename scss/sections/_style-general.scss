@@ -1,37 +1,40 @@
-.main {
-    background-color: $negro;
-    border-radius: 10px;
-    
-    h2 {
-        padding: 10px;
-        font-family: "$titulo";
-        color: $gris;
+
+
+    .main {
         background-color: $negro;
-        margin-top: 0%;
-        text-align: center;
+
+
+        h2 {
+            padding: 10px;
+            font-family: "$titulo";
+            color: $gris;
+            background-color: $negro;
+            margin-top: 0%;
+            text-align: center;
+        }
+
+        .parrafo {
+            padding: 5px;
+            font-family: '$texto', serif;
+            color: $rosita;
+        }
+
+        /* hover */
+        .link:hover {
+            background-color: rgb(168, 193, 216);
+            color: $negro;
+            transition: .1s;
+            transform: scale(1.5);
+            border: solid 2px $negro;
+        }
+
+        a {
+            padding-left: 5px;
+            text-decoration: none;
+            color: $celeste;
+        }
     }
 
-    .parrafo {
-        padding: 5px;
-        font-family: '$texto', serif;
-        color: $rosita;
-    }
-
-    /* hover */
-    .link:hover {
-        background-color: rgb(168, 193, 216);
-        color: $negro;
-        transition: .1s;
-        transform: scale(1.5);
-        border: solid 2px $negro;
-    }
-
-    a {
-        padding-left: 5px;
-        text-decoration: none;
-        color: $celeste;
-    }
-}
 
 /* responsive general*/
 
