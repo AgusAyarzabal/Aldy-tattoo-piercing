@@ -30,9 +30,19 @@
        
         justify-content: space-evenly;
 
+        .linkeo-imagenes{
+            width: 100vw;
+        }
+
+        li{
+            padding: 5px;
+        }
+
         img {
             width: 175px;
             margin: 5px;
+            border-radius: 20px;
+            box-shadow: 5px 0px 10px rgb(122, 111, 111);
         }
     }
 
@@ -43,7 +53,7 @@
 /* MEDIA QUERYS -MOBILE LAST= Max Width */
 
 
-@media(min-width: 719px) {
+@media(min-width: 721px) {
     .main-trabajos {
 
         .trabajos-div {
@@ -53,7 +63,7 @@
     }
 }
 
-@media(max-width: 720px) {
+@media(max-width: 719px) {
     .grid-container {
         display: none !important;
     }

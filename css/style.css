@@ -264,17 +264,23 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly; }
+  .main-trabajos .trabajos-div .linkeo-imagenes {
+    width: 100vw; }
+  .main-trabajos .trabajos-div li {
+    padding: 5px; }
   .main-trabajos .trabajos-div img {
     width: 175px;
-    margin: 5px; }
+    margin: 5px;
+    border-radius: 20px;
+    box-shadow: 5px 0px 10px #7a6f6f; }
 
 /* responsive trabajos*/
 /* MEDIA QUERYS -MOBILE LAST= Max Width */
-@media (min-width: 719px) {
+@media (min-width: 721px) {
   .main-trabajos .trabajos-div {
     display: none !important; } }
 
-@media (max-width: 720px) {
+@media (max-width: 719px) {
   .grid-container {
     display: none !important; } }
 
@@ -310,7 +316,6 @@
   text-align: center; }
   .main-contacto .form-contacto .h4-contact {
     display: inline-block !important;
-    padding: 5px !important;
     font-weight: 185 !important; }
   .main-contacto .form-contacto .controls {
     width: 100%;
