@@ -1,39 +1,38 @@
+.main {
+    background-color: $negro;
 
 
-    .main {
+    h2 {
+        padding: 10px;
+        font-family: "$titulo";
+        color: $gris;
         background-color: $negro;
-
-
-        h2 {
-            padding: 10px;
-            font-family: "$titulo";
-            color: $gris;
-            background-color: $negro;
-            margin-top: 0%;
-            text-align: center;
-        }
-
-        .parrafo {
-            padding: 5px;
-            font-family: '$texto', serif;
-            color: $rosita;
-        }
-
-        /* hover */
-        .link:hover {
-            background-color: rgb(168, 193, 216);
-            color: $negro;
-            transition: .1s;
-            transform: scale(1.5);
-            border: solid 2px $negro;
-        }
-
-        a {
-            padding-left: 5px;
-            text-decoration: none;
-            color: $celeste;
-        }
+        margin-top: 0%;
+        text-align: center;
     }
+
+    .parrafo {
+        padding: 5px;
+        font-family: '$texto', serif;
+        color: $rosita;
+    }
+
+    /* hover */
+    .link:hover {
+        background-color: rgb(168, 193, 216);
+        color: $negro;
+        transition: .1s;
+        transform: scale(1.5);
+        border: solid 2px $negro;
+    }
+
+    .gg-corner-right-up {
+        padding-left: 40px;
+        text-decoration: none;
+        color: #1f85b4;
+        padding-top: 30px;
+    }
+}
 
 
 /* responsive general*/

@@ -1,6 +1,19 @@
 /* estilos contacto */
 .main-contacto {
 
+    .redes-contacto {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        margin: 0.2rem;
+        justify-content: center;
+        align-items: center;
+
+     .gg-instagram{
+        margin: .5rem;
+     }
+    }
+
 
     .form-contacto {
         width: 300px;
@@ -11,7 +24,7 @@
         text-align: center;
 
         .h4-contact {
-            font-weight: 185 ;
+            font-weight: 185;
             padding: 5px;
         }
 
