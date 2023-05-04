@@ -18,10 +18,17 @@
         }
     }
 
-    .reels{
+    .reels {
         display: inline-block;
         padding-left: 35%;
         padding-top: 10px;
+        text-align: center;
+
+        .p-reels {
+            color: aliceblue;
+            font-size: x-large;
+            padding-bottom: 5px;
+        }
     }
 
 }
@@ -58,9 +65,9 @@
     }
 }
 
-@media(max-width: 900px){
+@media(max-width: 900px) {
 
-    .reels{
+    .reels {
         display: none !important;
     }
 }
