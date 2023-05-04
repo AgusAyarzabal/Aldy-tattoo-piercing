@@ -103,8 +103,8 @@
     transition: .1s;
     transform: scale(1.5);
     border: solid 2px #0E0F19; }
-  .main .gg-corner-right-up {
-    padding-left: 40px;
+  .main .gg-corner-left-up {
+    margin-left: 10px;
     text-decoration: none;
     color: #1f85b4;
     padding-top: 30px; }
@@ -263,6 +263,9 @@
   justify-content: space-evenly; }
   .main-trabajos .trabajos-div .linkeo-imagenes {
     width: 100vw; }
+    .main-trabajos .trabajos-div .linkeo-imagenes a {
+      color: rgba(255, 255, 255, 0.555);
+      text-decoration: none; }
   .main-trabajos .trabajos-div li {
     padding: 5px; }
   .main-trabajos .trabajos-div img {
