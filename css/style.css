@@ -108,6 +108,10 @@
     text-decoration: none;
     color: #1f85b4;
     padding-top: 30px; }
+  .main h5 {
+    color: white;
+    margin: .5rem;
+    font-family: "'Merriweather', serif;"; }
 
 /* responsive general*/
 /* MEDIA QUERYS -MOBILE LAST= Max Width */
@@ -337,42 +341,41 @@
   .main-contacto .redes-contacto .gg-instagram {
     margin: .5rem; }
 
-.main-contacto .form-contacto {
+.form-contacto {
   width: 300px;
   padding: 10px;
   margin: auto;
   border: radius 4px;
   color: aliceblue;
   text-align: center; }
-  .main-contacto .form-contacto .h4-contact {
+  .form-contacto .h4-contact {
     font-weight: 185;
     padding: 5px; }
-  .main-contacto .form-contacto .controls {
+  .form-contacto .controls {
     width: 100%;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 20px;
     border: 1px solid color rgba(0, 0, 0, 0.15);
     font-size: 20px; }
-  .main-contacto .form-contacto .input {
+  .form-contacto .input {
     background-color: aliceblue;
     padding: 15px;
     height: 10px;
     margin: 10px; }
-    .main-contacto .form-contacto .input:focus {
+    .form-contacto .input:focus {
       transform: scale(1.05); }
 
-.main-contacto .turno {
+.turno {
   display: flex;
   align-items: center;
-  padding-top: 10px;
   justify-content: center; }
-  .main-contacto .turno .parrafo-contact {
+  .turno .parrafo-contact {
     color: #F8C7CC;
     margin: 10px;
     width: auto; }
 
-.main-contacto .button {
+.button {
   margin: 20px; }
 
 /* responsive contacto*/
@@ -392,12 +395,10 @@
     align-items: center;
     padding-top: 10px;
     padding: 0px;
-    justify-content: center; }
-  .mobile-last_t .parrafo-contact {
-    color: #F8C7CC;
-    margin: 10px;
-    width: auto; } }
+    justify-content: center; } }
 
 @media (max-width: 425px) {
+  .mapa {
+    display: none; }
   .mobile-last .turno {
     flex-wrap: nowrap; } }

@@ -9,74 +9,74 @@
         justify-content: center;
         align-items: center;
 
-     .gg-instagram{
-        margin: .5rem;
-     }
+        .gg-instagram {
+            margin: .5rem;
+        }
+
+
     }
 
 
-    .form-contacto {
-        width: 300px;
+}
+
+
+
+.form-contacto {
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+    border: radius 4px;
+    color: aliceblue;
+    text-align: center;
+
+    .h4-contact {
+        font-weight: 185;
+        padding: 5px;
+    }
+
+    .controls {
+        width: 100%;
         padding: 10px;
-        margin: auto;
-        border: radius 4px;
-        color: aliceblue;
-        text-align: center;
-
-        .h4-contact {
-            font-weight: 185;
-            padding: 5px;
-        }
-
-
-
-        .controls {
-            width: 100%;
-            padding: 10px;
-            border-radius: 4px;
-            margin-bottom: 20px;
-            border: 1px solid color rgba(0, 0, 0, 0.15);
-            font-size: 20px;
-        }
-
-        .input {
-            background-color: aliceblue;
-            padding: 15px;
-            height: 10px;
-            margin: 10px;
-
-            &:focus {
-                transform: scale(1.05);
-            }
-
-        }
-
-
-
+        border-radius: 4px;
+        margin-bottom: 20px;
+        border: 1px solid color rgba(0, 0, 0, 0.15);
+        font-size: 20px;
     }
 
+    .input {
+        background-color: aliceblue;
+        padding: 15px;
+        height: 10px;
+        margin: 10px;
 
-
-    .turno {
-        display: flex;
-        align-items: center;
-        padding-top: 10px;
-        justify-content: center;
-
-
-        .parrafo-contact {
-            color: $rosita;
-            margin: 10px;
-            width: auto;
+        &:focus {
+            transform: scale(1.05);
         }
 
-    }
-
-    .button {
-        margin: 20px;
     }
 
 }
+
+
+.turno {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    .parrafo-contact {
+        color: $rosita;
+        margin: 10px;
+        width: auto;
+    }
+
+}
+
+.button {
+    margin: 20px;
+}
+
+
 
 
 /* responsive contacto*/
@@ -117,11 +117,7 @@
 
         }
 
-        .parrafo-contact {
-            color: $rosita;
-            margin: 10px;
-            width: auto;
-        }
+
     }
 }
 
@@ -130,6 +126,9 @@
 
 @media(max-width: 425px) {
 
+    .mapa{
+        display: none;
+    }
 
     .mobile-last {
         .turno {
@@ -137,3 +136,4 @@
         }
     }
 }
+
