@@ -23,23 +23,23 @@
 
     .trabajos-div {
         display: flex;
-        
+
         flex-direction: row;
-       
+
         flex-wrap: wrap;
-       
+
         justify-content: space-evenly;
 
-        .linkeo-imagenes{
+        .linkeo-imagenes {
             width: 100vw;
-            
+
             a {
                 color: rgba(255, 255, 255, 0.555);
                 text-decoration: none;
             }
         }
 
-        li{
+        li {
             padding: 5px;
         }
 

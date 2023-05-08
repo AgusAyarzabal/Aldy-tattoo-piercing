@@ -108,10 +108,6 @@
     text-decoration: none;
     color: #1f85b4;
     padding-top: 30px; }
-  .main h5 {
-    color: white;
-    margin: .5rem;
-    font-family: "'Merriweather', serif;"; }
 
 /* responsive general*/
 /* MEDIA QUERYS -MOBILE LAST= Max Width */
@@ -341,37 +337,59 @@
   .main-contacto .redes-contacto .gg-instagram {
     margin: .5rem; }
 
+.main-contacto .parrafo-contact {
+  color: #F8C7CC;
+  margin-bottom: .5rem; }
+
+.main-contacto .mapa {
+  text-align: center; }
+
+.main-contacto h4 {
+  color: aliceblue;
+  font-weight: 185;
+  padding: 5px; }
+
 .form-contacto {
   width: 300px;
   padding: 10px;
   margin: auto;
-  border: radius 4px;
-  color: aliceblue;
-  text-align: center; }
-  .form-contacto .h4-contact {
-    font-weight: 185;
-    padding: 5px; }
+  background-color: #24303c;
+  border-radius: 10px;
+  box-shadow: 7px 8px 37px #3b3a3a;
+  border: 1px solid #fff; }
   .form-contacto .controls {
     width: 100%;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 20px;
-    border: 1px solid color rgba(0, 0, 0, 0.15);
-    font-size: 20px; }
-  .form-contacto .input {
-    background-color: aliceblue;
-    padding: 15px;
-    height: 10px;
-    margin: 10px; }
-    .form-contacto .input:focus {
-      transform: scale(1.05); }
+    font-size: 20px;
+    background-color: #24303c;
+    border: 1px solid #1f53c5;
+    text-align: center; }
+  .form-contacto .consulta {
+    width: 100%;
+    padding: 35px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background-color: #24303c;
+    border: 1px solid #1f53c5;
+    text-align: center; }
+
+.input {
+  background-color: aliceblue;
+  padding: 15px;
+  height: 10px;
+  margin: 10px; }
+  .input:focus {
+    transform: scale(1.05); }
 
 .turno {
   display: flex;
   align-items: center;
   justify-content: center; }
   .turno .parrafo-contact {
-    color: #F8C7CC;
+    color: white;
     margin: 10px;
     width: auto; }
 

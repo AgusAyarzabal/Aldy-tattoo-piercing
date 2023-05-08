@@ -16,6 +16,22 @@
 
     }
 
+    .parrafo-contact {
+        color: $rosita;
+        margin-bottom: .5rem;
+
+    }
+
+    .mapa {
+        text-align: center;
+
+    }
+
+    h4 {
+        color: aliceblue;
+        font-weight: 185;
+        padding: 5px;
+    }
 
 }
 
@@ -25,37 +41,50 @@
     width: 300px;
     padding: 10px;
     margin: auto;
-    border: radius 4px;
-    color: aliceblue;
-    text-align: center;
+    background-color: #24303c;
+    border-radius: 10px;
+    box-shadow: 7px 8px 37px #3b3a3a;
+    border: 1px solid #fff;
 
-    .h4-contact {
-        font-weight: 185;
-        padding: 5px;
-    }
+
+
 
     .controls {
         width: 100%;
         padding: 10px;
         border-radius: 4px;
         margin-bottom: 20px;
-        border: 1px solid color rgba(0, 0, 0, 0.15);
         font-size: 20px;
+        background-color: #24303c;
+        border: 1px solid #1f53c5;
+        text-align: center;
     }
 
-    .input {
-        background-color: aliceblue;
-        padding: 15px;
-        height: 10px;
-        margin: 10px;
+    .consulta {
+        width: 100%;
+        padding: 35px;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        background-color: #24303c;
+        border: 1px solid #1f53c5;
+        text-align: center;
+    }
+}
 
-        &:focus {
-            transform: scale(1.05);
-        }
+.input {
+    background-color: aliceblue;
+    padding: 15px;
+    height: 10px;
+    margin: 10px;
 
+    &:focus {
+        transform: scale(1.05);
     }
 
 }
+
+
 
 
 .turno {
@@ -65,7 +94,7 @@
 
 
     .parrafo-contact {
-        color: $rosita;
+        color: white;
         margin: 10px;
         width: auto;
     }
@@ -126,7 +155,7 @@
 
 @media(max-width: 425px) {
 
-    .mapa{
+    .mapa {
         display: none;
     }
 
@@ -136,4 +165,3 @@
         }
     }
 }
-
