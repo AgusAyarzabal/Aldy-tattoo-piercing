@@ -353,17 +353,18 @@
   width: 300px;
   padding: 10px;
   margin: auto;
-  background-color: #24303c;
+  background-color: #5d5f5d;
   border-radius: 10px;
   box-shadow: 7px 8px 37px #3b3a3a;
-  border: 1px solid #fff; }
+  border: 1px solid #1f53c5;
+  margin-bottom: 10px; }
   .form-contacto .controls {
     width: 100%;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 20px;
     font-size: 20px;
-    background-color: #24303c;
+    background-color: #5d5f5d;
     border: 1px solid #1f53c5;
     text-align: center; }
   .form-contacto .consulta {
@@ -372,7 +373,7 @@
     border-radius: 4px;
     margin-bottom: 20px;
     font-size: 20px;
-    background-color: #24303c;
+    background-color: #5d5f5d;
     border: 1px solid #1f53c5;
     text-align: center; }
 
@@ -390,7 +391,7 @@
   justify-content: center; }
   .turno .parrafo-contact {
     color: white;
-    margin: 10px;
+    margin: 5px;
     width: auto; }
 
 .button {
