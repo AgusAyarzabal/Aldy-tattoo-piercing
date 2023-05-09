@@ -96,9 +96,10 @@
   .main .parrafo {
     padding: 5px;
     font-family: '$texto', serif;
-    color: #F8C7CC; }
+    color: #F8C7CC;
+    font-size: large; }
   .main .link:hover {
-    background-color: #a8c1d8;
+    background-color: #1f85b4;
     color: #0E0F19;
     transition: .1s;
     transform: scale(1.5);
@@ -224,7 +225,11 @@
 .main-blog .li {
   padding: 5px;
   font-family: '$texto', serif;
-  color: #F8C7CC; }
+  color: #F8C7CC;
+  font-size: large; }
+
+.main-blog p {
+  font-size: large; }
 
 /* responsive blog*/
 /* MEDIA QUERYS -MOBILE LAST= Max Width */
