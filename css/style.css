@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /* tipografias */
 /* FUENTE EXTERNA */
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Sedgwick+Ave+Display&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans:wght@600&display=swap");
 /* reseteo */
 * {
   margin: 0;
@@ -19,7 +19,7 @@
     align-items: center;
     /* barra nav */ }
     .header .header-flex h1 {
-      font-family: "'Merriweather', serif;"; }
+      font-family: "'Spline Sans', sans-serif;"; }
     .header .header-flex .logo {
       width: 40px;
       margin: .5rem; }
@@ -106,8 +106,9 @@
   .main .gg-corner-left-up {
     margin-left: 10px;
     text-decoration: none;
-    color: #1f85b4;
-    padding-top: 30px; }
+    color: #1f53c5;
+    padding-top: 30px;
+    background-color: white; }
 
 /* responsive general*/
 /* MEDIA QUERYS -MOBILE LAST= Max Width */
