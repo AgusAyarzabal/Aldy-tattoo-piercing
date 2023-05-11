@@ -94,10 +94,12 @@
     margin-top: 0%;
     text-align: center; }
   .main .parrafo {
-    padding: 5px;
+    padding: 3px;
     font-family: '$texto', serif;
     color: #F8C7CC;
-    font-size: large; }
+    font-size: large;
+    padding-left: 10px;
+    padding-right: 10px; }
   .main .link:hover {
     background-color: #1f85b4;
     color: #0E0F19;
@@ -123,7 +125,7 @@
       background-color: #0E0F19;
       padding: 5px; }
     .mobile-last p {
-      max-width: 650px;
+      max-width: 600px;
       margin: auto;
       font-size: medium;
       text-align: center; } }
@@ -139,7 +141,7 @@
     font-size: medium;
     text-align: center; }
     .mobile_last_t p {
-      max-width: 750px;
+      max-width: 700px;
       margin: auto;
       font-size: medium;
       text-align: center; }
@@ -171,7 +173,6 @@
     text-decoration: none;
     color: #0E0F19; }
   .footer h4 {
-    display: inline-block !important;
     padding: 5px;
     font-weight: 185; }
   .footer .redes {

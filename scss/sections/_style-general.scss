@@ -12,10 +12,12 @@
     }
 
     .parrafo {
-        padding: 5px;
+        padding: 3px;
         font-family: '$texto', serif;
         color: $rosita;
         font-size: large;
+        padding-left: 10px;
+        padding-right: 10px;
 
     }
 
@@ -57,7 +59,7 @@
         }
 
         p {
-            max-width: 650px;
+            max-width: 600px;
             margin: auto;
             font-size: medium;
             text-align: center;
@@ -85,7 +87,7 @@
         text-align: center;
 
         p {
-            max-width: 750px;
+            max-width: 700px;
             margin: auto;
             font-size: medium;
             text-align: center;
